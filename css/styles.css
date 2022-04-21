@@ -329,6 +329,7 @@ img {
     border-radius: 50%;
     display: flex;
     outline: 1px solid red;
+    justify-content: center;
     align-items: center;
 }
 
