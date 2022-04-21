@@ -348,6 +348,24 @@ img {
     margin-bottom: 50px;
 }
 
+.clients-list{
+    display: flex;
+    justify-content: center;
+}
+
+.clients-link{
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    box-sizing: border-box;
+    border-radius: 4px;
+    display: block;
+}
+
+.clients-item:not(:last-child) {
+    margin-right: 30px;
+}
+
 /* ------------------------FOOTER------------------------------- */
 
 .footer-logo {
