@@ -112,8 +112,8 @@ img {
 
 .contacts {
     display: flex;
-    margin-right: 0;
     margin-left: auto;
+
 }
 
 .contacts-link {
@@ -127,6 +127,7 @@ img {
 .contacts-item:first-child {
     margin-right: 50px;
 }
+
 
 /* ------------------------HERO------------------------------- */
 
@@ -328,9 +329,14 @@ img {
     background-color: var(--basic-bgc);
     border-radius: 50%;
     display: flex;
-    outline: 1px solid red;
     justify-content: center;
     align-items: center;
+    fill: #AFB1B8;
+}
+
+.team-soc-link:hover, .team-soc-link:focus {
+    background-color: var(--color-accent);
+    fill: var(--basic-bgc)
 }
 
 
@@ -368,6 +374,15 @@ img {
     margin-right: 30px;
 }
 
+.client-logo {
+    fill: #AFB1B8;
+}
+
+.clients-link:hover .team-soc-logo{
+    fill: var(--color-accent);
+    border: 1px solid var(--color-accent);
+}
+
 /* ------------------------FOOTER------------------------------- */
 
 .footer-logo {
@@ -380,11 +395,22 @@ img {
     letter-spacing: 0.03em;
 }
 
+.footer>.container {
+    display: flex;
+    align-items: baseline;
+}
+
 .footer {
     background-color: var(--dark-bgc);
     padding-top: 60px;
     padding-bottom: 60px;
 }
+
+.footer-info{
+    margin-right: 70px;
+    min-width: 231px;
+}
+
 
 .address {
     color: #FFFFFF;
@@ -407,6 +433,42 @@ img {
 
 .footer-contacts-item {
     margin-top: 9px;
+}
+
+.footer-text{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.footer-soc-list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.footer-soc-item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.footer-soc-link{
+    width: 44px;
+    height: 44px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: #ffffff;
+}
+
+.footer-soc-link:hover, .footer-soc-link:focus {
+    background-color: var(--color-accent);
+    fill: #FFFFFF;
 }
 
 
