@@ -327,8 +327,9 @@ img {
     height: 44px;
     background-color: var(--basic-bgc);
     border-radius: 50%;
-    display: block;
+    display: flex;
     outline: 1px solid red;
+    align-items: center;
 }
 
 
